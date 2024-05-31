@@ -14,6 +14,15 @@ namespace MultipleStuff
             double max = superList.GetMinMax1(doubles, out min);
             Console.WriteLine(min);
             Console.WriteLine(max);
+
+            Console.WriteLine(superList.GetMinMax2(doubles).Min);
+            Console.WriteLine(superList.GetMinMax2(doubles).Max);
+
+            Console.WriteLine(superList.GetMinMax3(doubles).Item1);
+            Console.WriteLine(superList.GetMinMax3(doubles).Item2);
+
+            Console.WriteLine(superList.GetMinMax4(doubles).Min);
+            Console.WriteLine(superList.GetMinMax4(doubles).Max);
         }
     }
 }
